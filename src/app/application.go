@@ -12,6 +12,7 @@ import (
 
 var (
 	router = gin.Default()
+	// test
 )
 
 func StartApplication() {
