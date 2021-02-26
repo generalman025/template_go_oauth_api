@@ -1,11 +1,11 @@
 package app
 
 import (
-	"template_go_oauth_api/clients/cassandra"
-	"template_go_oauth_api/http"
-	"template_go_oauth_api/repository/db"
-	"template_go_oauth_api/repository/rest"
-	"template_go_oauth_api/services/access_token"
+	"github.com/generalman025/template_go_oauth_api/clients/cassandra"
+	"github.com/generalman025/template_go_oauth_api/http"
+	"github.com/generalman025/template_go_oauth_api/repository/db"
+	"github.com/generalman025/template_go_oauth_api/repository/rest"
+	"github.com/generalman025/template_go_oauth_api/services/access_token"
 
 	"github.com/gin-gonic/gin"
 )

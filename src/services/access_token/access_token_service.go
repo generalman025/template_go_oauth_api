@@ -2,10 +2,11 @@ package access_token
 
 import (
 	"strings"
-	"template_go_oauth_api/domain/access_token"
-	"template_go_oauth_api/repository/db"
-	"template_go_oauth_api/repository/rest"
-	"template_go_oauth_api/utils/errors"
+
+	"github.com/generalman025/template_go_oauth_api/domain/access_token"
+	"github.com/generalman025/template_go_oauth_api/repository/db"
+	"github.com/generalman025/template_go_oauth_api/repository/rest"
+	"github.com/generalman025/template_go_oauth_api/utils/errors"
 )
 
 type Service interface {

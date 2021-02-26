@@ -1,9 +1,9 @@
 package db
 
 import (
-	"template_go_oauth_api/clients/cassandra"
-	"template_go_oauth_api/domain/access_token"
-	"template_go_oauth_api/utils/errors"
+	"github.com/generalman025/template_go_oauth_api/clients/cassandra"
+	"github.com/generalman025/template_go_oauth_api/domain/access_token"
+	"github.com/generalman025/template_go_oauth_api/utils/errors"
 
 	"github.com/gocql/gocql"
 )

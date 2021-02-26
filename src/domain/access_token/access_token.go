@@ -3,9 +3,10 @@ package access_token
 import (
 	"fmt"
 	"strings"
-	crypto_utils "template_go_oauth_api/utils"
-	"template_go_oauth_api/utils/errors"
 	"time"
+
+	crypto_utils "github.com/generalman025/template_go_oauth_api/utils"
+	"github.com/generalman025/template_go_oauth_api/utils/errors"
 )
 
 const (

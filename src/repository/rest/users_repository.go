@@ -2,9 +2,10 @@ package rest
 
 import (
 	"encoding/json"
-	"template_go_oauth_api/domain/users"
-	"template_go_oauth_api/utils/errors"
 	"time"
+
+	"github.com/generalman025/template_go_oauth_api/domain/users"
+	"github.com/generalman025/template_go_oauth_api/utils/errors"
 
 	"github.com/mercadolibre/golang-restclient/rest"
 )

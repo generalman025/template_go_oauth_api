@@ -2,9 +2,10 @@ package http
 
 import (
 	"net/http"
-	atDomain "template_go_oauth_api/domain/access_token"
-	"template_go_oauth_api/services/access_token"
-	"template_go_oauth_api/utils/errors"
+
+	atDomain "github.com/generalman025/template_go_oauth_api/domain/access_token"
+	"github.com/generalman025/template_go_oauth_api/services/access_token"
+	"github.com/generalman025/template_go_oauth_api/utils/errors"
 
 	"github.com/gin-gonic/gin"
 )

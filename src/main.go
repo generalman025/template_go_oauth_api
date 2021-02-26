@@ -1,7 +1,7 @@
 package main
 
 import (
-	"template_go_oauth_api/app"
+	"github.com/generalman025/template_go_oauth_api/app"
 )
 
 func main() {
