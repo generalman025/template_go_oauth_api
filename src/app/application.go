@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	router = gin.Default()
+	router = gin.Default() //test
 )
 
 func StartApplication() {
