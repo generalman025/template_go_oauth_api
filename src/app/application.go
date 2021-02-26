@@ -12,10 +12,10 @@ import (
 
 var (
 	router = gin.Default()
-	// test
 )
 
 func StartApplication() {
+
 	defer cassandra.GetSession().Close()
 	atHandler := http.NewAccessTokenHandler(access_token.NewService(rest.NewRepository(), db.NewRepository()))
 
