@@ -6,7 +6,7 @@ import (
 	"time"
 
 	crypto_utils "github.com/generalman025/template_go_oauth_api/utils"
-	"github.com/generalman025/template_go_oauth_api/utils/errors"
+	"github.com/generalman025/template_go_util_lib_api/rest_errors"
 )
 
 const (
@@ -28,7 +28,7 @@ type AccessTokenRequest struct {
 	ClientSecret string `json:"client_secret"`
 }
 
-func (at *AccessTokenRequest) Validate() *errors.RestErr {
+func (at *AccessTokenRequest) Validate() *rest_errors.RestErr {
 	switch at.GrantType {
 	case grantTypePassword:
 		break
@@ -37,7 +37,7 @@ func (at *AccessTokenRequest) Validate() *errors.RestErr {
 		break
 
 	default:
-		return errors.NewBadRequestError("invalid grant_type parameter")
+		return rest_errors.NewBadRequestError("invalid grant_type parameter")
 	}
 
 	//TODO: Validate parameters for each grant_type
@@ -54,19 +54,19 @@ type AccessToken struct {
 // Web frontend: Client-ID: 123
 // Android Application - Client-ID: 234
 
-func (at *AccessToken) Validate() *errors.RestErr {
+func (at *AccessToken) Validate() *rest_errors.RestErr {
 	at.AccessToken = strings.TrimSpace(at.AccessToken)
 	if at.AccessToken == "" {
-		return errors.NewBadRequestError("invalid access token id")
+		return rest_errors.NewBadRequestError("invalid access token id")
 	}
 	if at.UserID <= 0 {
-		return errors.NewBadRequestError("invalid user id")
+		return rest_errors.NewBadRequestError("invalid user id")
 	}
 	if at.ClientID <= 0 {
-		return errors.NewBadRequestError("invalid client id")
+		return rest_errors.NewBadRequestError("invalid client id")
 	}
 	if at.Expires <= 0 {
-		return errors.NewBadRequestError("invalid expiration time")
+		return rest_errors.NewBadRequestError("invalid expiration time")
 	}
 	return nil
 }
