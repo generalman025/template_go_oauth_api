@@ -12,6 +12,8 @@ github.com/generalman025/template_go_util_lib_api v0.0.0-20210228042915-e7eddb3d
 github.com/generalman025/template_go_util_lib_api v0.0.0-20210228042915-e7eddb3d9347/go.mod h1:3yCeMtaeX1qsUlOrrCotF5+gTTGCpvqhIwn4OtBmKKY=
 github.com/generalman025/template_go_util_lib_api v0.0.0-20210228045030-eccef0a146dd h1:om8VP6bG6yFWi6EL2l5emHl5nooZ5z/IIaMgSdNHOpo=
 github.com/generalman025/template_go_util_lib_api v0.0.0-20210228045030-eccef0a146dd/go.mod h1:3yCeMtaeX1qsUlOrrCotF5+gTTGCpvqhIwn4OtBmKKY=
+github.com/generalman025/template_go_util_lib_api v0.0.0-20210228122926-f18a15774ad1 h1:iCDHsDXPvqDmkFvcFu6Q7eRfx0eKK3i3O4X7Su5jQOQ=
+github.com/generalman025/template_go_util_lib_api v0.0.0-20210228122926-f18a15774ad1/go.mod h1:3yCeMtaeX1qsUlOrrCotF5+gTTGCpvqhIwn4OtBmKKY=
 github.com/gin-contrib/sse v0.1.0 h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=
 github.com/gin-contrib/sse v0.1.0/go.mod h1:RHrZQHXnP2xjPF+u1gW/2HnVO7nvIa9PG3Gm+fLHvGI=
 github.com/gin-gonic/gin v1.6.3 h1:ahKqKTFpO5KTPHxWZjEdPScmYaGtLo8Y4DMHoEsnp14=
