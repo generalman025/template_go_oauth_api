@@ -9,7 +9,8 @@ var (
 )
 
 func init() {
-	cluster := gocql.NewCluster("127.0.0.1")
+	// cluster := gocql.NewCluster("127.0.0.1") // for localhost
+	cluster := gocql.NewCluster("host.docker.internal") // for docker
 	cluster.Keyspace = "oauth"
 	cluster.Consistency = gocql.Quorum
 	var err error
